@@ -60,14 +60,13 @@ function isLGSeven(number) {
     if (mainNumber > condition) {
       return condition;
     } else if (mainNumber < condition) {
-      let newNumber = condition * 2;
-      return newNumber;
+      return number * 2;
     }
   } else {
     console.log("Please input Numbers Only");
   }
 }
-// const givenNumber = 15;
+// const givenNumber = 6;
 // console.log(isLGSeven(givenNumber));
 
 // Problem 4: Finding Bad data
@@ -94,7 +93,10 @@ function findingBadData(arr) {
 // Problem 5: Convert your gems into diamond
 function gemsToDiamond(num1, num2, num3) {
   // checking if input type is number
-  const isNumber = typeof (num1, num2, num3) === "number";
+  const isNumber =
+    typeof num1 === "number" &&
+    typeof num2 === "number" &&
+    typeof num3 === "number";
   num1 = num1 * 21;
   num2 = num2 * 32;
   num3 = num3 * 43;
