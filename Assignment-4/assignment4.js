@@ -15,7 +15,7 @@
 
 // Problem 1: Let’s play a mind game
 function mindGame(number) {
-  // check if the input type is integer/number.
+  // checking if the input type is integer/number.
   const isNumber = typeof number === "number";
   if (isNumber) {
     const result = (number * 3 + 10) / 2 - 5;
@@ -24,12 +24,12 @@ function mindGame(number) {
     console.log("Please input Numbers only");
   }
 }
-const inputNumber = 5;
+// const inputNumber = 33;
 // console.log(mindGame(inputNumber));
 
 // Problem 2: Finding even or odd
 function evenOdd(stringOnly) {
-  // check input type
+  // checking if input type is string
   const isString = typeof stringOnly === "string";
   const stringLength = stringOnly.length;
   const even = "even";
@@ -46,12 +46,12 @@ function evenOdd(stringOnly) {
     console.log("Please input String only");
   }
 }
-const inputString = "Phero";
+// const inputString = "Batch7";
 // console.log(evenOdd(inputString));
 
 // Problem 3: Is Less or Greater than seven
 function isLGSeven(number) {
-  // input type check
+  // checking if input type is number
   const isNumber = typeof number === "number";
   if (isNumber) {
     const mainNumber = 7;
@@ -67,12 +67,12 @@ function isLGSeven(number) {
     console.log("Please input Numbers Only");
   }
 }
-const givenNumber = 6;
+// const givenNumber = 15;
 // console.log(isLGSeven(givenNumber));
 
 // Problem 4: Finding Bad data
 function findingBadData(arr) {
-  // input type check
+  // checking if input type is an array
   const checkedArray = Array.isArray(arr);
   if (checkedArray) {
     let badData = 0;
@@ -88,12 +88,12 @@ function findingBadData(arr) {
   }
 }
 
-const inputArray = [1, 2, 5];
+// const inputArray = [-4, -9, -5, -33, -55];
 // console.log(findingBadData(inputArray));
 
 // Problem 5: Convert your gems into diamond
 function gemsToDiamond(num1, num2, num3) {
-  // check input type
+  // checking if input type is number
   const isNumber = typeof (num1, num2, num3) === "number";
   num1 = num1 * 21;
   num2 = num2 * 32;
@@ -112,8 +112,8 @@ function gemsToDiamond(num1, num2, num3) {
   }
 }
 
-const friendsOne = 1;
-const friendsTwo = 1;
-const friendsThree = 1;
-const diamond = gemsToDiamond(friendsOne, friendsTwo, friendsThree);
+// const friendsOne = 1;
+// const friendsTwo = 1;
+// const friendsThree = 1;
+// const diamond = gemsToDiamond(friendsOne, friendsTwo, friendsThree);
 // console.log(diamond);
